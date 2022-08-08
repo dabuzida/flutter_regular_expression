@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form/sign_up.dart';
-
-import 'formm.dart';
-import 'formm2.dart';
-import 'formm3.dart';
-import 'text_form_fieldd.dart';
+import 'package:flutter_regular_expression/regular_expression.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,20 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Form',
+      title: 'RegularExpression',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Form'),
+          title: const Text('RegularExpression'),
           elevation: 0,
           foregroundColor: Colors.white,
           backgroundColor: Colors.teal,
           centerTitle: true,
         ),
-        // backgroundColor: Colors.greenAccent[100],
-        // body: const Formm(),
-        // body: const Formm2(),
-        // body: const Formm3(),
-        // body: const TextFormFieldd(),
+        body: RegularExpression(),
       ),
     );
   }
