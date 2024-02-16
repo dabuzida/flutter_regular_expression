@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_regular_expression/regular_expression.dart';
+import 'package:flutter_regular_expression/test_reg_exp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.teal,
           centerTitle: true,
         ),
-        body: RegularExpression(),
+        body: const TestRegExp(),
       ),
     );
   }
